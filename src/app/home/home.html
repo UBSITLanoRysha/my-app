@@ -1,0 +1,5 @@
+<div class="home-container">
+    <h1 [class.highlighted]="isHighlighted">{{ appTitle }}</h1>
+    <img [src]="userImageUrl" alt="User Avatar" class="avatar">
+    <p>Today is: {{ currentDate | date:'fullDate' }}</p>
+  </div>
